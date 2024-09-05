@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="h2-Febri">Denta</h1>
+    <button id="btn-check">Cek</button>
+
+    <script>
+        // let thisTagName = document.getElementByTagName("h2")
+        // let thisIdname = document.getElementById("h2-Febri")
+        // console.log(thisIdName, "==> ID")
+        // console.log(thisIdNaem, "==> TAG")
+        // document.getElementByTagName("h1")
+
+        let buttonCheck = document.getElementById("btn-check")
+        buttonCheck.addEventListener("click", () => {
+            console.log("halo word");
+            console.log(this);
+        })
+        // console.log(h1);
+    </script>
+</body>
+
+</html>
